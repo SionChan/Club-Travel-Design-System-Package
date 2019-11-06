@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'clubtraveliconcollection';
+  src: url('../font/clubtraveliconcollection.eot?9672219');
+  src: url('../font/clubtraveliconcollection.eot?9672219#iefix') format('embedded-opentype'),
+       url('../font/clubtraveliconcollection.woff2?9672219') format('woff2'),
+       url('../font/clubtraveliconcollection.woff?9672219') format('woff'),
+       url('../font/clubtraveliconcollection.ttf?9672219') format('truetype'),
+       url('../font/clubtraveliconcollection.svg?9672219#clubtraveliconcollection') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'clubtraveliconcollection';
+    src: url('../font/clubtraveliconcollection.svg?9672219#clubtraveliconcollection') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "clubtraveliconcollection";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-activity:before { content: '\e800'; } /* '' */
+.icon-back-to-top:before { content: '\e801'; } /* '' */
+.icon-bookmark---filled:before { content: '\e802'; } /* '' */
+.icon-bookmark:before { content: '\e803'; } /* '' */
+.icon-calendar:before { content: '\e804'; } /* '' */
+.icon-change:before { content: '\e805'; } /* '' */
+.icon-close:before { content: '\e80a'; } /* '' */
+.icon-clubpoints:before { content: '\e80b'; } /* '' */
+.icon-currency:before { content: '\e80c'; } /* '' */
+.icon-earth:before { content: '\e80d'; } /* '' */
+.icon-eu-plug-f:before { content: '\e80e'; } /* '' */
+.icon-eu-plug-g:before { content: '\e80f'; } /* '' */
+.icon-experience:before { content: '\e810'; } /* '' */
+.icon-filter:before { content: '\e811'; } /* '' */
+.icon-flight:before { content: '\e812'; } /* '' */
+.icon-heart:before { content: '\e813'; } /* '' */
+.icon-info:before { content: '\e814'; } /* '' */
+.icon-menu:before { content: '\e815'; } /* '' */
+.icon-notes:before { content: '\e817'; } /* '' */
+.icon-pin:before { content: '\e818'; } /* '' */
+.icon-plus:before { content: '\e819'; } /* '' */
+.icon-poi:before { content: '\e81a'; } /* '' */
+.icon-search:before { content: '\e81b'; } /* '' */
+.icon-tick:before { content: '\e81c'; } /* '' */
+.icon-ticket:before { content: '\e81d'; } /* '' */
+.icon-time:before { content: '\e81e'; } /* '' */
+.icon-tour:before { content: '\e81f'; } /* '' */
+.icon-transportation:before { content: '\e820'; } /* '' */
+.icon-traveller:before { content: '\e821'; } /* '' */
+.icon-user-group:before { content: '\e822'; } /* '' */
+.icon-volts:before { content: '\e823'; } /* '' */
+.icon-warning:before { content: '\e824'; } /* '' */
+.icon-chevron-up:before { content: '\e825'; } /* '' */
+.icon-chevron-right:before { content: '\e826'; } /* '' */
+.icon-chevron-down:before { content: '\e827'; } /* '' */
+.icon-chevron-left:before { content: '\e828'; } /* '' */
